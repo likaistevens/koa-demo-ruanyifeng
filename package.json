@@ -16,6 +16,7 @@
     "koa": "^2.3.0",
     "koa-body": "^2.3.0",
     "koa-compose": "^4.0.0",
+    "koa-html-render": "^1.0.3",
     "koa-route": "^3.2.0",
     "koa-static": "^4.0.1",
     "koa2-cors": "^2.0.6"
