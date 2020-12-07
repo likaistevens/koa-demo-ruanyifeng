@@ -28,7 +28,7 @@ const tool = ctx => {
   ctx.html("./index.html")
 };
 
-app.use(route.get('/', main));
+app.use(route.get('/', tool));
 app.use(route.get('/data', myData));
 app.use(route.get('/jsonp', jsonp));
 app.use(route.get('/tool', tool));
