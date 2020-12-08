@@ -27,6 +27,11 @@ const jsonp = ctx => {
 const tool = ctx => {
   ctx.html("./index.html")
 };
+// const config = ctx => {
+//   const json = require('./config.js')
+//   const temp = json+''
+//   ctx.response.body = temp;
+// };
 
 app.use(route.get('/', tool));
 app.use(route.get('/data', myData));
